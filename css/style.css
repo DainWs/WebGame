@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Oswald;
+    src: url('../fonts/Oswald.ttf');
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    min-height: 15px;
+    min-width: 100%;
+    
+    position: fixed;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color: #24292e;
+}
+
+header h1 {
+    margin-left: 15px;
+    color: white;
+    
+    cursor: default;
+    display: none;
+}
+
+header .github {
+    margin-right: 15px;
+    
+    align-items: center;
+    
+    cursor: pointer;
+    display: none;
+    
+    text-decoration: none;
+}
+
+header .github .logo{
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+    max-height: 50px;
+}
+
+header .github p {
+    font-family: Oswald;
+    font-size: 32px;
+    color: white;
+}
+
+header:hover h1 {
+    display: flex;
+}
+
+header:hover .github {
+    display: flex;
+}
