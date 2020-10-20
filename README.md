@@ -1,4 +1,4 @@
-# WebGame
+# WebGame (Inprogress)
 - Author : Jose Antonio Duarte Perez (DainWs) -
 
 This game is in development, therefore it is not complete.
